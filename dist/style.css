@@ -1,0 +1,79 @@
+body {
+	background-color: #4CA4D8;
+	font-family: Lato, Calibri, Arial, sans-serif;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: white;
+	padding: 40px 30px 40px 30px;
+}
+
+input, select, textarea, label {
+	display: block;
+}
+
+input[type="radio"], [type="checkbox"] {
+	display: inline;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+input[type="text"], [type="email"], textarea, select {
+	background-color: #4CA4D8;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+input[type="text"], [type="email"] {
+	border: 2px solid white;
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+textarea {
+	height: 130px;
+	border: 2px solid white;
+	margin-top: 3px;
+}
+
+select {
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+.talent {
+	margin-top: 20px;
+}
+
+.power {
+	margin-top: 20px;
+}
+button {
+	color: white;
+	background-color: #186998;
+	border: none;
+	padding: 15px 20px 15px 20px;
+	margin: 0 auto;
+	display: block;
+}
+
+::-webkit-input-placeholder {
+   color: #186998;
+   font-style: italic;
+   font-size: 15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #186998; 
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #186998;  
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+   color: #186998;
+   font-style: italic;  
+}
